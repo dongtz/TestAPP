@@ -10,9 +10,16 @@ import SwiftData
 
 @main
 struct TestAPP1App: App {
+    
+    // SwiftData模型容器配置
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Store.self,
+            Product.self,
+            Order.self,
+            Employee.self,
+            Customer.self,
+            User.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +32,7 @@ struct TestAPP1App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
         .modelContainer(sharedModelContainer)
     }
