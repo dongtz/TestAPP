@@ -4,7 +4,7 @@
 
 3C零售通是一款面向3C行业零售门店的智能管理应用，为店长和店员提供经营数据分析、库存管理、订单处理、员工协作等全方位的门店运营解决方案。应用支持多门店管理，通过数据可视化和智能分析，帮助提升门店运营效率和销售业绩。
 
-**设计理念**：参考小米零售通，注重操作便捷性、数据实时性和激励机制。
+**设计理念**：注重操作便捷性、数据实时性和激励机制。
 
 ## 项目信息
 
@@ -532,7 +532,7 @@ class APIDataProvider: DataProviderProtocol {
 ### 配色方案
 
 **主色调**:
-- 主色：科技蓝 #007AFF（参考小米蓝）
+- 主色：科技蓝 #007AFF
 - 辅助色：橙色 #FF6B00（强调、警告）
 - 成功：绿色 #34C759
 - 失败/警告：红色 #FF3B30
@@ -644,7 +644,7 @@ class APIDataProvider: DataProviderProtocol {
 - [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
 - [SwiftUI Documentation](https://developer.apple.com/documentation/swiftui/)
 - [SwiftData Documentation](https://developer.apple.com/documentation/swiftdata/)
-- 小米零售通（竞品分析参考）
+
 
 ## 项目成员
 
